@@ -25,9 +25,5 @@ https://hub.docker.com/r/yamamoi/mysql/
 ```
 * 起動
 ```sh
-$ docker run --name mysql --rm -d -p 3306:3306 -p33060:33060 --env MYSQL_ROOT_PASSWORD='root' mysql:8.0.13-x 
+$ docker run --name mysql --rm -d -p 3306:3306 -p33060:33060 --env MYSQL_ROOT_PASSWORD='root' yamamoi/mysql:8.0.13-x
 ```
-
-## 
-
-
